@@ -1,0 +1,15 @@
+[package]
+name = "thefuzz"
+version = "0.22.1"
+edition = "2021"
+description = "Fuzzy string matching in Rust (port of Python thefuzz)"
+license = "MIT"
+repository = "https://github.com/seatgeek/thefuzz"
+
+[dependencies]
+
+[dev-dependencies]
+
+[lib]
+name = "thefuzz"
+path = "src/lib.rs"
